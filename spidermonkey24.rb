@@ -1,6 +1,6 @@
 require 'formula'
 
-class Spidermonkey17 < Formula
+class Spidermonkey24 < Formula
   desc "Mozilla's JavaScript engine release 24"
   homepage 'https://developer.mozilla.org/en/docs/SpiderMonkey'
   url 'http://ftp.mozilla.org/pub/mozilla.org/js/mozjs-24.2.0.tar.bz2'
