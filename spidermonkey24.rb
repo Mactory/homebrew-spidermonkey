@@ -11,7 +11,7 @@ class Spidermonkey24 < Formula
   def install
     chdir "./js/src/"
     system "./configure", "--disable-debug", "--prefix=#{prefix}"
-    system "make"
+    system "make", "JS_THREADSAFE=1"
     system "make", "check" if build.with? 'check'
     system "make", "install"
   end
