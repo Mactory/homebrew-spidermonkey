@@ -1,7 +1,7 @@
 require 'formula'
 
-class Spidermonkey24 < Formula
-  desc "Mozilla's JavaScript engine release 24"
+class Spidermonkey24JsThreadsafe < Formula
+  desc "Mozilla's JavaScript engine release 24 with JS_THREADSAFE"
   homepage 'https://developer.mozilla.org/en/docs/SpiderMonkey'
   url 'http://ftp.mozilla.org/pub/mozilla.org/js/mozjs-24.2.0.tar.bz2'
   sha1 'ce779081cc11bd0c871c6f303fc4a0091cf4fe66'
